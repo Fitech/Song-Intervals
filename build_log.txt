@@ -1,0 +1,62 @@
+src/App.tsx(2,24): error TS6142: Module './components/Layout' was resolved to 'C:/Users/meand/Documents/Git/Dashboard/src/components/Layout.tsx', but '--jsx' is not set.
+src/App.tsx(3,23): error TS6142: Module './components/Clock' was resolved to 'C:/Users/meand/Documents/Git/Dashboard/src/components/Clock.tsx', but '--jsx' is not set.
+src/App.tsx(4,25): error TS6142: Module './components/Weather' was resolved to 'C:/Users/meand/Documents/Git/Dashboard/src/components/Weather.tsx', but '--jsx' is not set.
+src/App.tsx(5,28): error TS6142: Module './components/FocusTimer' was resolved to 'C:/Users/meand/Documents/Git/Dashboard/src/components/FocusTimer.tsx', but '--jsx' is not set.
+src/App.tsx(9,5): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/App.tsx(10,7): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/App.tsx(11,7): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/App.tsx(12,7): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Clock.tsx(23,9): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Clock.tsx(24,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Clock.tsx(25,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Clock.tsx(26,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Clock.tsx(28,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Clock.tsx(31,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(50,9): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(51,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(52,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(53,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(56,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(58,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(59,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(67,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(82,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(83,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(89,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(90,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(91,33): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(91,55): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(94,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/FocusTimer.tsx(95,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Layout.tsx(1,17): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Layout.tsx(9,9): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Layout.tsx(10,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(55,32): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(56,44): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(57,46): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(58,46): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(59,46): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(60,46): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(61,46): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(62,32): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(63,16): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(81,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(82,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(89,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(90,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(91,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(104,9): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(105,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(106,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(118,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(119,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(120,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(122,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(127,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(128,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(129,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(130,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/components/Weather.tsx(131,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/main.tsx(3,17): error TS6142: Module './App.tsx' was resolved to 'C:/Users/meand/Documents/Git/Dashboard/src/App.tsx', but '--jsx' is not set.
+src/main.tsx(7,3): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/main.tsx(8,5): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
