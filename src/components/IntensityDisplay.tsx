@@ -23,7 +23,7 @@ export const IntensityDisplay: React.FC<IntensityDisplayProps> = ({ intensity })
   };
 
   return (
-    <div className="absolute inset-0 flex items-end pointer-events-none z-0">
+    <div className="absolute inset-0 flex items-end pointer-events-none z-30">
       <div
         className={`w-1/3 transition-all duration-300 ease-out rounded-t-3xl bg-gradient-to-t left-layout-offset ${getColor(intensity)}`}
         style={{

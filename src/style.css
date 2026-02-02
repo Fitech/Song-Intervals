@@ -478,6 +478,18 @@ body {
   z-index: 0;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -596,5 +608,145 @@ body {
 
   50% {
     opacity: .5;
+  }
+}
+
+/* Particle Explosion Effects */
+.particle {
+  animation-name: shoot, fade;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shoot {
+  0% {
+    transform: translate(50vw, 50vh) scale(0);
+  }
+
+  /* 100% is the element's inline transform */
+}
+
+@keyframes fade {
+
+  0%,
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Recovery Mode Waves */
+.air {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+  background-size: 1000px 100px;
+}
+
+.air.air1 {
+  animation: wave 30s linear infinite;
+  z-index: 1;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+
+.air.air2 {
+  animation: wave2 15s linear infinite;
+  z-index: 2;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+
+.air.air3 {
+  animation: wave 30s linear infinite;
+  z-index: 3;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+
+.air.air4 {
+  animation: wave2 5s linear infinite;
+  z-index: 4;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+
+@keyframes wave {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+/* Work Mode Spinners */
+.spinner-ring {
+  border-radius: 9999px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner-ring-1 {
+  width: 80vh;
+  height: 80vh;
+  border: 8px dotted rgba(255, 255, 255, 0.2);
+  animation: spin 60s linear infinite;
+}
+
+.spinner-ring-2 {
+  width: 60vh;
+  height: 60vh;
+  border: 8px dotted rgba(255, 255, 255, 0.1);
+  animation: spin-reverse 45s linear infinite;
+}
+
+.spinner-ring-3 {
+  width: 40vh;
+  height: 40vh;
+  border: 8px dotted rgba(255, 255, 255, 0.05);
+  animation: spin 90s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes spin-reverse {
+  from {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
   }
 }

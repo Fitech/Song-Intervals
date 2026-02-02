@@ -15,7 +15,7 @@ export const MotivationalOverlay: React.FC<MotivationalOverlayProps> = ({ intens
             key={message}
             className={`fixed flex items-center justify-start pointer-events-none z-50 ${isHighIntensity ? '-inset-4 shake-animation' : 'inset-0 float-animation'}`}
         >
-            <div className="w-1/3 text-center left-layout-offset">
+            <div className="w-2/3 text-center left-layout-offset">
                 <h2 className="text-8xl font-black text-white drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] tracking-tighter uppercase whitespace-pre-wrap">
                     {message}
                 </h2>

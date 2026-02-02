@@ -2,13 +2,17 @@ import { useState, useEffect, useRef } from 'react';
 import { IntensityDisplay } from './components/IntensityDisplay';
 import { MotivationalOverlay } from './components/MotivationalOverlay';
 
+import ParticleExplosion from './components/ParticleExplosion';
+import RecoveryWaves from './components/RecoveryWaves';
+import WorkModeSpinners from './components/WorkModeSpinners';
+
 function App() {
   const [intensity, setIntensity] = useState(0);
   const [activeMessage, setActiveMessage] = useState<string | null>(null);
 
   // Refs to avoid stale closures in event listener
   const activeMessageRef = useRef<string | null>(null);
-  const messageTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const messageTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Sync ref with state
   useEffect(() => {
@@ -68,6 +72,11 @@ function App() {
     <div className="dashboard-container relative overflow-hidden bg-gray-900 w-full h-screen">
       <IntensityDisplay intensity={intensity} />
       <MotivationalOverlay intensity={intensity} message={activeMessage} />
+      {intensity === 8 && <ParticleExplosion variant="subtle" />}
+      {intensity === 9 && <ParticleExplosion variant="medium" />}
+      {intensity >= 10 && <ParticleExplosion variant="normal" />}
+      {intensity >= 1 && intensity <= 3 && <RecoveryWaves />}
+      {intensity >= 3 && <WorkModeSpinners />}
     </div>
   );
 }
