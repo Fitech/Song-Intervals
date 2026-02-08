@@ -1,9 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
-import { IntensityDisplay } from './components/IntensityDisplay';
+import { RoadScene } from './components/RoadScene';
 import { MotivationalOverlay } from './components/MotivationalOverlay';
 
 import ParticleExplosion from './components/ParticleExplosion';
-import RecoveryWaves from './components/RecoveryWaves';
 import WorkModeSpinners from './components/WorkModeSpinners';
 
 function App() {
@@ -70,12 +69,11 @@ function App() {
 
   return (
     <div className="dashboard-container relative overflow-hidden bg-gray-900 w-full h-screen">
-      <IntensityDisplay intensity={intensity} />
+      <RoadScene intensity={intensity} />
       <MotivationalOverlay intensity={intensity} message={activeMessage} />
       {intensity === 8 && <ParticleExplosion variant="subtle" />}
       {intensity === 9 && <ParticleExplosion variant="medium" />}
       {intensity >= 10 && <ParticleExplosion variant="normal" />}
-      {intensity >= 1 && intensity <= 3 && <RecoveryWaves />}
       {intensity >= 3 && <WorkModeSpinners />}
     </div>
   );

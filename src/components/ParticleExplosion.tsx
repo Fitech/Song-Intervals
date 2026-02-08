@@ -44,8 +44,9 @@ const ParticleExplosion: React.FC<ParticleExplosionProps> = ({ variant = 'normal
 
             const color = `hsl(${hue}, ${saturation}, ${lightness})`;
 
-            const duration = (1 + Math.random() * 2).toFixed(2) + 's';
-            const delay = '-' + (Math.random() * 2).toFixed(2) + 's';
+            // Faster animation to match the speedy bars (0.4s to 1.2s)
+            const duration = (0.4 + Math.random() * 0.8).toFixed(2) + 's';
+            const delay = '-' + (Math.random() * 0.8).toFixed(2) + 's';
 
             return {
                 id: i,
