@@ -1,0 +1,820 @@
+{
+  "version": "1.0",
+  "songs": {
+    "0D8OdE68Ppw1jXCA2oCQTo": {
+      "trackId": "0D8OdE68Ppw1jXCA2oCQTo",
+      "trackName": "GRiZTRONICS II (Another Level) VIP",
+      "artistName": "GRiZ, Subtronics",
+      "duration": 145655,
+      "events": [
+        {
+          "timestamp": 1764,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 15751,
+          "type": "intensity",
+          "data": {
+            "level": 4
+          }
+        },
+        {
+          "timestamp": 33776,
+          "type": "intensity",
+          "data": {
+            "level": 8
+          }
+        },
+        {
+          "timestamp": 59773,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 75775,
+          "type": "intensity",
+          "data": {
+            "level": 9
+          }
+        },
+        {
+          "timestamp": 110777,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 115764,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 125764,
+          "type": "intensity",
+          "data": {
+            "level": 1
+          }
+        }
+      ],
+      "recordedAt": 1770658259060,
+      "playCount": 0
+    },
+    "4D6XxZ4Hl5mwgc6UbLgbiF": {
+      "trackId": "4D6XxZ4Hl5mwgc6UbLgbiF",
+      "trackName": "Strange Behaviour",
+      "artistName": "Feed Me, Tasha Baxter",
+      "duration": 294912,
+      "events": [
+        {
+          "timestamp": 1956,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 67945,
+          "type": "intensity",
+          "data": {
+            "level": 8
+          }
+        },
+        {
+          "timestamp": 127941,
+          "type": "message",
+          "data": {
+            "text": "KEEP GOING!",
+            "key": "k"
+          }
+        },
+        {
+          "timestamp": 150942,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 156940,
+          "type": "message",
+          "data": {
+            "text": "RECOVER",
+            "key": "ArrowDown"
+          }
+        },
+        {
+          "timestamp": 195938,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 204939,
+          "type": "intensity",
+          "data": {
+            "level": 9
+          }
+        },
+        {
+          "timestamp": 262939,
+          "type": "message",
+          "data": {
+            "text": "KEEP GOING!",
+            "key": "k"
+          }
+        },
+        {
+          "timestamp": 288116,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 290124,
+          "type": "intensity",
+          "data": {
+            "level": 1
+          }
+        }
+      ],
+      "recordedAt": 1770658404858,
+      "playCount": 0
+    },
+    "1Ca7IBRiNfOJT5STMI7suU": {
+      "trackId": "1Ca7IBRiNfOJT5STMI7suU",
+      "trackName": "Funk You Up!",
+      "artistName": "GRiZ",
+      "duration": 151627,
+      "events": [
+        {
+          "timestamp": 21131,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 32110,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 41104,
+          "type": "intensity",
+          "data": {
+            "level": 5
+          }
+        },
+        {
+          "timestamp": 44099,
+          "type": "intensity",
+          "data": {
+            "level": 7
+          }
+        },
+        {
+          "timestamp": 65102,
+          "type": "intensity",
+          "data": {
+            "level": 8
+          }
+        },
+        {
+          "timestamp": 81110,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 121107,
+          "type": "intensity",
+          "data": {
+            "level": 10
+          }
+        },
+        {
+          "timestamp": 124105,
+          "type": "message",
+          "data": {
+            "text": "🔥 BURN 🔥",
+            "key": "f"
+          }
+        },
+        {
+          "timestamp": 148234,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 148234,
+          "type": "intensity",
+          "data": {
+            "level": 1
+          }
+        }
+      ],
+      "recordedAt": 1770657068257,
+      "playCount": 0
+    },
+    "1J4a7oNd51mDiJXVz7dxVI": {
+      "trackId": "1J4a7oNd51mDiJXVz7dxVI",
+      "trackName": "Lonely Mountain",
+      "artistName": "Feed Me",
+      "duration": 340366,
+      "events": [
+        {
+          "timestamp": 31362,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 46357,
+          "type": "intensity",
+          "data": {
+            "level": 4
+          }
+        },
+        {
+          "timestamp": 75360,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 93357,
+          "type": "message",
+          "data": {
+            "text": "FASTER!",
+            "key": "ArrowUp"
+          }
+        },
+        {
+          "timestamp": 115358,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 135358,
+          "type": "intensity",
+          "data": {
+            "level": 7
+          }
+        },
+        {
+          "timestamp": 154357,
+          "type": "intensity",
+          "data": {
+            "level": 8
+          }
+        },
+        {
+          "timestamp": 196357,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 200358,
+          "type": "message",
+          "data": {
+            "text": "RECOVER",
+            "key": "ArrowDown"
+          }
+        },
+        {
+          "timestamp": 228360,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 253359,
+          "type": "intensity",
+          "data": {
+            "level": 1
+          }
+        },
+        {
+          "timestamp": 268361,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 268361,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 279357,
+          "type": "intensity",
+          "data": {
+            "level": 10
+          }
+        },
+        {
+          "timestamp": 280358,
+          "type": "message",
+          "data": {
+            "text": "🔥 BURN 🔥",
+            "key": "f"
+          }
+        },
+        {
+          "timestamp": 334492,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        }
+      ],
+      "recordedAt": 1770657214482,
+      "playCount": 0
+    },
+    "2NuNzR5GVtL8nkJ0sxfGzs": {
+      "trackId": "2NuNzR5GVtL8nkJ0sxfGzs",
+      "trackName": "Nobody Else (with Kaleena Zanders)",
+      "artistName": "GRiZ, Kaleena Zanders",
+      "duration": 192000,
+      "events": [
+        {
+          "timestamp": 12855,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 14849,
+          "type": "intensity",
+          "data": {
+            "level": 4
+          }
+        },
+        {
+          "timestamp": 65765,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 72771,
+          "type": "intensity",
+          "data": {
+            "level": 9
+          }
+        },
+        {
+          "timestamp": 126768,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 152768,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 155768,
+          "type": "intensity",
+          "data": {
+            "level": 4
+          }
+        },
+        {
+          "timestamp": 157768,
+          "type": "intensity",
+          "data": {
+            "level": 10
+          }
+        },
+        {
+          "timestamp": 159767,
+          "type": "message",
+          "data": {
+            "text": "🔥 BURN 🔥",
+            "key": "f"
+          }
+        },
+        {
+          "timestamp": 161774,
+          "type": "message",
+          "data": {
+            "text": "FASTER!",
+            "key": "ArrowUp"
+          }
+        },
+        {
+          "timestamp": 186998,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 187992,
+          "type": "intensity",
+          "data": {
+            "level": 1
+          }
+        }
+      ],
+      "recordedAt": 1770657555019,
+      "playCount": 0
+    },
+    "0t7HKmZDWnOIRDVT9hqyuQ": {
+      "trackId": "0t7HKmZDWnOIRDVT9hqyuQ",
+      "trackName": "Blaze Up The Fire",
+      "artistName": "Major Lazer, Chronixx",
+      "duration": 214916,
+      "events": [
+        {
+          "timestamp": 2660,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 42625,
+          "type": "intensity",
+          "data": {
+            "level": 7
+          }
+        },
+        {
+          "timestamp": 69635,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 77627,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 79627,
+          "type": "message",
+          "data": {
+            "text": "KEEP GOING!",
+            "key": "k"
+          }
+        },
+        {
+          "timestamp": 82627,
+          "type": "intensity",
+          "data": {
+            "level": 8
+          }
+        },
+        {
+          "timestamp": 95625,
+          "type": "intensity",
+          "data": {
+            "level": 5
+          }
+        },
+        {
+          "timestamp": 108640,
+          "type": "intensity",
+          "data": {
+            "level": 8
+          }
+        },
+        {
+          "timestamp": 135628,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 150627,
+          "type": "intensity",
+          "data": {
+            "level": 4
+          }
+        },
+        {
+          "timestamp": 161629,
+          "type": "intensity",
+          "data": {
+            "level": 9
+          }
+        },
+        {
+          "timestamp": 168625,
+          "type": "message",
+          "data": {
+            "text": "🔥 BURN 🔥",
+            "key": "f"
+          }
+        },
+        {
+          "timestamp": 188628,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        }
+      ],
+      "recordedAt": 1770657747147,
+      "playCount": 0
+    },
+    "2gOrSnyYKsJWMrOH9giTkT": {
+      "trackId": "2gOrSnyYKsJWMrOH9giTkT",
+      "trackName": "Chaos Theory",
+      "artistName": "GRiZ, Wooli",
+      "duration": 157714,
+      "events": [
+        {
+          "timestamp": 13605,
+          "type": "intensity",
+          "data": {
+            "level": 4
+          }
+        },
+        {
+          "timestamp": 21600,
+          "type": "message",
+          "data": {
+            "text": "FASTER!",
+            "key": "ArrowUp"
+          }
+        },
+        {
+          "timestamp": 41565,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 69557,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 74563,
+          "type": "intensity",
+          "data": {
+            "level": 9
+          }
+        },
+        {
+          "timestamp": 102565,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 105561,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 116562,
+          "type": "intensity",
+          "data": {
+            "level": 10
+          }
+        },
+        {
+          "timestamp": 131566,
+          "type": "message",
+          "data": {
+            "text": "🔥 BURN 🔥",
+            "key": "f"
+          }
+        },
+        {
+          "timestamp": 144772,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        }
+      ],
+      "recordedAt": 1770657962221,
+      "playCount": 0
+    },
+    "4zzFiS5QEovRo8PRCH16Fk": {
+      "trackId": "4zzFiS5QEovRo8PRCH16Fk",
+      "trackName": "FREAK NASTY",
+      "artistName": "Pretty Sweet",
+      "duration": 138857,
+      "events": [
+        {
+          "timestamp": 13765,
+          "type": "intensity",
+          "data": {
+            "level": 4
+          }
+        },
+        {
+          "timestamp": 40733,
+          "type": "intensity",
+          "data": {
+            "level": 8
+          }
+        },
+        {
+          "timestamp": 68733,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 95730,
+          "type": "intensity",
+          "data": {
+            "level": 9
+          }
+        },
+        {
+          "timestamp": 123915,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 135922,
+          "type": "intensity",
+          "data": {
+            "level": 1
+          }
+        }
+      ],
+      "recordedAt": 1770658120078,
+      "playCount": 0
+    },
+    "4BistIT6s5yEdv02f8pKO3": {
+      "trackId": "4BistIT6s5yEdv02f8pKO3",
+      "trackName": "Go Go Gadget",
+      "artistName": "Rusko",
+      "duration": 229266,
+      "events": [
+        {
+          "timestamp": 26919,
+          "type": "intensity",
+          "data": {
+            "level": 5
+          }
+        },
+        {
+          "timestamp": 110907,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 122908,
+          "type": "intensity",
+          "data": {
+            "level": 6
+          }
+        },
+        {
+          "timestamp": 128902,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 136909,
+          "type": "intensity",
+          "data": {
+            "level": 6
+          }
+        },
+        {
+          "timestamp": 214906,
+          "type": "intensity",
+          "data": {
+            "level": 4
+          }
+        },
+        {
+          "timestamp": 219906,
+          "type": "intensity",
+          "data": {
+            "level": 2
+          }
+        },
+        {
+          "timestamp": 220906,
+          "type": "intensity",
+          "data": {
+            "level": 1
+          }
+        }
+      ],
+      "recordedAt": 1770658699922,
+      "playCount": 0
+    },
+    "3H4Z4FxtGQrlzlwAOdr7PA": {
+      "trackId": "3H4Z4FxtGQrlzlwAOdr7PA",
+      "trackName": "Raise The Flag",
+      "artistName": "Killrude",
+      "duration": 195000,
+      "events": [
+        {
+          "timestamp": 100614,
+          "type": "intensity",
+          "data": {
+            "level": 3
+          }
+        },
+        {
+          "timestamp": 129477,
+          "type": "intensity",
+          "data": {
+            "level": 8
+          }
+        },
+        {
+          "timestamp": 130478,
+          "type": "intensity",
+          "data": {
+            "level": 9
+          }
+        },
+        {
+          "timestamp": 156478,
+          "type": "intensity",
+          "data": {
+            "level": 10
+          }
+        }
+      ],
+      "recordedAt": 1770659081077,
+      "playCount": 0
+    }
+  },
+  "defaultPattern": [
+    {
+      "timestamp": 0,
+      "type": "intensity",
+      "data": {
+        "level": 5
+      }
+    },
+    {
+      "timestamp": 60000,
+      "type": "intensity",
+      "data": {
+        "level": 7
+      }
+    },
+    {
+      "timestamp": 120000,
+      "type": "intensity",
+      "data": {
+        "level": 3
+      }
+    }
+  ]
+}
