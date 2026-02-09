@@ -4,6 +4,7 @@ import * as THREE from 'three';
 
 interface RoadSceneProps {
     intensity: number;
+    dominantColor: [number, number, number] | null;
 }
 
 // Animated Grid Floor with faint white lines moving TOWARD camera
@@ -94,11 +95,14 @@ function MovingBar({ initialZ, side, intensity, speed }: MovingBarProps) {
     const startZ = -50; // Spawn far away
     const endZ = 10;    // Pass camera
 
-    // Color based on intensity
-    const getColor = (level: number): THREE.Color => {
-        if (level <= 3) return new THREE.Color('#22d3ee'); // Cyan
-        if (level <= 7) return new THREE.Color('#f59e0b'); // Amber
-        return new THREE.Color('#ef4444'); // Red
+    // Color based on intensity (original logic restored)
+    let color: THREE.Color;
+    if (intensity <= 3) {
+        color = new THREE.Color(0x3b82f6); // Blue for recovery
+    } else if (intensity <= 7) {
+        color = new THREE.Color(0xfbbf24); // Yellow/orange for moderate
+    } else {
+        color = new THREE.Color(0xef4444); // Red for high
     };
 
     const getEmissiveIntensity = (level: number): number => {
@@ -150,7 +154,6 @@ function MovingBar({ initialZ, side, intensity, speed }: MovingBarProps) {
         }
     });
 
-    const color = getColor(intensity);
     const xPos = side === 'left' ? -roadWidth : roadWidth;
 
     return (
@@ -311,7 +314,12 @@ function RecoveryParticles({ intensity }: { intensity: number }) {
 }
 
 // Main Scene component
-function Scene({ intensity }: { intensity: number }) {
+function Scene({ intensity, dominantColor }: { intensity: number; dominantColor: [number, number, number] | null }) {
+    // Convert dominant color to more vibrant fog (60% intensity instead of 20%)
+    const fogColor = dominantColor
+        ? `rgb(${Math.floor(dominantColor[0] * 0.6)}, ${Math.floor(dominantColor[1] * 0.6)}, ${Math.floor(dominantColor[2] * 0.6)})`
+        : '#050510';
+
     return (
         <>
             {/* Lighting */}
@@ -319,8 +327,8 @@ function Scene({ intensity }: { intensity: number }) {
             <pointLight position={[0, 10, 0]} intensity={0.5} />
             <pointLight position={[0, 2, 5]} intensity={0.5} color="#ffffff" />
 
-            {/* Fog matches background */}
-            <fog attach="fog" args={['#050510', 10, 50]} />
+            {/* Fog matches background - tinted with album color */}
+            <fog attach="fog" args={[fogColor, 10, 50]} />
 
             {/* Grid floor */}
             <GridFloor intensity={intensity} />
@@ -335,7 +343,7 @@ function Scene({ intensity }: { intensity: number }) {
 }
 
 // Exported component with Canvas
-export const RoadScene: React.FC<RoadSceneProps> = ({ intensity }) => {
+export const RoadScene: React.FC<RoadSceneProps> = ({ intensity, dominantColor }) => {
     return (
         <div className="absolute inset-0 z-0">
             <Canvas
@@ -350,8 +358,21 @@ export const RoadScene: React.FC<RoadSceneProps> = ({ intensity }) => {
                 }}
                 style={{ background: '#050510' }}
             >
-                <Scene intensity={intensity} />
+                <Scene intensity={intensity} dominantColor={dominantColor} />
             </Canvas>
+
+            {/* Color tint overlay - radial glow from center using album art color */}
+            {dominantColor && (
+                <div
+                    className="absolute inset-0 pointer-events-none z-5"
+                    style={{
+                        background: `radial-gradient(circle at center, 
+                            rgba(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]}, 0.3) 0%, 
+                            rgba(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]}, 0.15) 40%, 
+                            transparent 70%)`
+                    }}
+                />
+            )}
 
             {/* Intensity number overlay */}
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">

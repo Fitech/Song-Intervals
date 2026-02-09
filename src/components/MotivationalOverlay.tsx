@@ -13,10 +13,11 @@ export const MotivationalOverlay: React.FC<MotivationalOverlayProps> = ({ intens
     return (
         <div
             key={message}
-            className={`fixed flex items-center justify-start pointer-events-none z-50 ${isHighIntensity ? '-inset-4 shake-animation' : 'inset-0 float-animation'}`}
+            className={`fixed inset-0 flex items-center justify-center pointer-events-none z-50 ${isHighIntensity ? 'shake-animation' : ''}`}
         >
-            <div className="w-2/3 text-center left-layout-offset">
-                <h2 className="text-8xl font-black text-white drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] tracking-tighter uppercase whitespace-pre-wrap">
+            {/* Centered message above intensity number */}
+            <div className="text-center" style={{ marginBottom: '20vh' }}>
+                <h2 className={`font-black text-white drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] tracking-tighter uppercase whitespace-pre-wrap ${isHighIntensity ? 'text-9xl' : 'text-8xl float-animation'}`}>
                     {message}
                 </h2>
             </div>

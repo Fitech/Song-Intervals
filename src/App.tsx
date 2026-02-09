@@ -1,13 +1,16 @@
 import { useState, useEffect, useRef } from 'react';
 import { RoadScene } from './components/RoadScene';
 import { MotivationalOverlay } from './components/MotivationalOverlay';
+import { SpotifyProvider, useSpotify } from './context/SpotifyContext';
+import SpotifyPlayer from './components/SpotifyPlayer';
 
 import ParticleExplosion from './components/ParticleExplosion';
 import WorkModeSpinners from './components/WorkModeSpinners';
 
-function App() {
+function AppContent() {
   const [intensity, setIntensity] = useState(0);
   const [activeMessage, setActiveMessage] = useState<string | null>(null);
+  const { dominantColor } = useSpotify();
 
   // Refs to avoid stale closures in event listener
   const activeMessageRef = useRef<string | null>(null);
@@ -69,13 +72,22 @@ function App() {
 
   return (
     <div className="dashboard-container relative overflow-hidden bg-gray-900 w-full h-screen">
-      <RoadScene intensity={intensity} />
+      <RoadScene intensity={intensity} dominantColor={dominantColor} />
       <MotivationalOverlay intensity={intensity} message={activeMessage} />
       {intensity === 8 && <ParticleExplosion variant="subtle" />}
       {intensity === 9 && <ParticleExplosion variant="medium" />}
       {intensity >= 10 && <ParticleExplosion variant="normal" />}
       {intensity >= 3 && <WorkModeSpinners />}
+      <SpotifyPlayer />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <SpotifyProvider>
+      <AppContent />
+    </SpotifyProvider>
   );
 }
 
